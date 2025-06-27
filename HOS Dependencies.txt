@@ -1,0 +1,68 @@
+Python dependencies
+Anacond
+
+	packages
+pypylon
+DeepLabCut DeepLabCut v3.0.0rc8
+cv2 (pip3 install opencv-python)
+
+MATLAB dependencies
+MATLAB 2024b or later.
+Antenna Toolbox
+Audio Toolbox
+Bioinformatics Toolbox
+Communications toolbox
+Computer Vision Toolbox
+Control System Toolbox
+Curve fitting toolbox
+Data Acquisition Toolbox
+Database toolbox
+Dsp System Toolbox
+Deep Learning HDL toolbox
+Deep Learning toolbox
+Financial Instruments Toolbox
+Financial Toolbox
+Fixed-Point Desinger
+Fuzzy Logic Toolbox
+Global Optimization Toolbox
+Gpu Coder
+Image Acquisition Toolbox
+Image Processing Toolbox
+Instrument Control Toolbox
+MATLAB Coder
+MATLAB Support for MinGW-w64 c/C++/Fortran Compiler
+Medical Imaging Toolbox
+Optimization Toolbox
+Parallel Computing toolbox
+Partial Differential Equation Toolbox
+Pushbullet Notifier
+Signal Processing Toolbox
+Simulink
+Statistics and Machine Learning Toolbox
+Wavelet Toolbox
+
+
+
+Software dependencies
+Visual C++ Redistributable 
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022
+
+Visual Studio Installer
+-Visual Studio Community 2022 Preview
+
+ffmpeg-2025-05-19-git-c55d65ac0a-full_build
+cudnn-windows-x86_64-8.6.0.163_cuda11-archive
+
+
+GPU Hardware and dependencies
+Geforce RTX 30 series. Suggest 40 or 50 series, minimum 8GB memory, for faster DLC training and analysis.
+Nvidia package launcher
+Nvidia app + latest studio driver
+Specifically need the cudnn.dll file that is relevant to your version of DLC, GPU, version of windows, and computer setup. Put those dependencies in a non systems folder, like downloads. BUT NOT A CLOUD FOLDER LIKE DROPBOX OR ONEDRIVE.
+
+Also, need to change you computer PATH environmental variable to include the folder of the dll and other files. Again, refer to my chatgpt conversation regarding setting up DLC in the teams chat.
+
+4TB SSD for video acquisiton, and storing numpy files.
+4-8TB general Storage is suggested
+
+It takes 15 minutes to record activity, 15min per camera view to convert raw video frames to mp4, about 40 min to convert a individual video to a TTL synced and image corrected video, 2 hrs to analyze each video using DLC, 1/2 hr per male motif trying to match, and then 2 minutes to make figures.

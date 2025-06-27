@@ -46,7 +46,7 @@ print("Cam Recording")
 Camera.StartGrabbing(pylon.GrabStrategy_OneByOne)  # Start frame acquisition
 
 # Construct output filename for raw video data
-File_Raw = sys.argv[2] + "-Cam-M1.npy"
+File_Raw = sys.argv[2] + "-Cam-Letter.npy"
 print(File_Raw)
 
 # Begin recording for specified duration

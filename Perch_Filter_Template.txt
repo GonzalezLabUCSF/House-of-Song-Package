@@ -1,0 +1,19 @@
+{
+
+    	"FM1XMax":0,
+ 	"FM1XMin":0,
+    	"FM1YMax":0, 
+	"FM1YMin":0,
+    	"FM2XMax":0,
+ 	"FM2XMin":0,
+    	"FM2YMax":0, 
+	"FM2YMin":0,
+	"M1XMax":0,
+ 	"M1XMin":0,
+    	"M1YMax":0, 
+	"M1YMin":0,
+	"M2XMax":0,
+ 	"M2XMin":0,
+    	"M2YMax":0, 
+	"M2YMin":0
+}
